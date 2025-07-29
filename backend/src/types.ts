@@ -4,3 +4,10 @@ export type UserEvent = {
   eventType: string;
   originalLine: string;
 }
+
+export type QueryParams = {
+  userId?: number ;
+  eventType?: string;
+  fromDate?: Date;
+  toDate?: Date;
+}
